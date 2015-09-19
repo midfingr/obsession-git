@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=plank-gui
+Name=Dock settings
+Categories=GTK;GNOME;Settings;
+Icon=plank
+Comment=Change the main panel (dock) settings

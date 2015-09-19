@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Backup and restore
+Comment=Backup and restore system and create Live CDs
+Exec=/usr/lib/systemback/sbsustart systemback gtk+
+Type=Application
+Icon=systemback
+Terminal=false
+Categories=System;

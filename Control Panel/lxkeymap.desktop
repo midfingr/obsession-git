@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Keyboard Layout
+Comment=Change keyboard international layout
+Categories=Settings;
+Exec=lxkeymap
+Icon=lxkeymap
+Terminal=false
+Type=Application

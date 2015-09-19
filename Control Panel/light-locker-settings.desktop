@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Screensaver Settings
+Comment=Configure locking your session
+Exec=/usr/bin/light-locker-settings
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=preferences-desktop-screensaver
