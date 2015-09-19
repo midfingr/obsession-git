@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gmail
+Icon=chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default
+Exec=/usr/bin/chromium --profile-directory=Default --app-id=pjkljhegncpnkpknbcohdijeoejaedia
+NoDisplay=false
+Categories=Other;
+StartupWMClass=crx_pjkljhegncpnkpknbcohdijeoejaedia
+StartupNotify=false
+Terminal=false
