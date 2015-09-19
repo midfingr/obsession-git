@@ -1,2 +1,11 @@
 #!/bin/bash
-sudo pacman -S
+sudo pacman -S haveged
+sudo systemctl enable haveged
+sudo systemctl start haveged
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman -Syy
+sudo pacman -S arandr chromium leafpad lightdm lightdm-gtk-greeter lxpanel lxappearance-obconf lxrandr lxsession openbox obconf xfce4-panel xfce4-whiskermenu-plugin thunar thunar-archive-plugin thunar-volman gvfs ntfs-3g dosfstools zip unzip p7zip unrar ttf-liberation xdg-user-dirs xfce4-terminal
+mkdir -p .config/openbox
+cp -r /etc/xdg/opebox/* ~/.config/openbox
+xdg-user-dirs.-update
