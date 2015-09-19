@@ -5,9 +5,13 @@ sudo systemctl start haveged
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
-sudo pacman -S arandr chromium leafpad lightdm lightdm-gtk-greeter lxpanel lxappearance-obconf lxrandr lxsession openbox obconf xfce4-panel xfce4-whiskermenu-plugin thunar thunar-archive-plugin thunar-volman gvfs ntfs-3g dosfstools zip unzip p7zip unrar ttf-liberation xdg-user-dirs xfce4-terminal networkmanager network-manager-applet
-mkdir -p .config/openbox
-cp -r /etc/xdg/opebox/* ~/.config/openbox
-xdg-user-dirs.-update
+sudo pacman -S arandr chromium leafpad lightdm lightdm-gtk-greeter lxpanel lxappearance-obconf lxrandr lxsession openbox obconf xfce4-panel xfce4-whiskermenu-plugin thunar thunar-archive-plugin thunar-volman gvfs ntfs-3g dosfstools zip unzip p7zip unrar ttf-liberation xdg-user-dirs xfce4-terminal networkmanager network-manager-applet plank xfce4-power-manager
+sudo cp obsession-git/yad-logout /usr/bin
+sudo cp obsession-git/yad-shutdown /usr/bin 
+rm -r ~/.config
+rm -r ~/.local
+cp -r obsession-git/.config ~/.config
+cp -r obsession-git/.local ~/.local
+xdg-user-dirs-update
 sudo systemctl enable NetworkManager
 sudo systemctl enable lightdm
