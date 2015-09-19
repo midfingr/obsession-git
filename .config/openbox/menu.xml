@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Change _Wallpaper">
+    <action name="Execute"><execute>nitrogen</execute></action>
+  </item>
+  <item label="Control _Panel">
+    <action name="Execute"><execute>control_panel</execute></action>
+  </item>
+  <item label="_Chromium">
+    <action name="Execute"><execute>chromium</execute></action>
+  </item>
+  <item label="_Run command">
+    <action name="Execute"><execute>gmrun</execute></action>
+  </item>
+  <item label="Open _Terminal">
+    <action name="Execute"><execute>xfce4-terminal</execute></action>
+  </item>
+  <separator />
+  <menu id="system-menu"/>
+  <item label="_Shutdown">
+    <action name="Execute"><execute>yad-shutdown</execute></action>
+  </item>
+  <item label="_Logout">
+    <action name="Execute"><execute>yad-logout</execute></action>
+  </item>
+</menu>
+
+</openbox_menu>

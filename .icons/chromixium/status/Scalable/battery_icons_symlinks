@@ -1,0 +1,94 @@
+#!/bin/bash
+
+#Creates symlinks for battery icons
+
+ln -s gpm-ac-adapter.svg ac-adapter.svg
+ln -s gpm-ac-adapter.svg xfpm-ac-adapter.svg
+
+ln -s gpm-primary-000.svg battery-000.svg
+ln -s gpm-primary-000.svg battery_empty.svg
+ln -s gpm-primary-000.svg battery-empty-symbolic.svg
+ln -s gpm-primary-000.svg gpm-battery-000.svg
+ln -s gpm-primary-000.svg notification-battery-000.svg
+ln -s gpm-primary-000.svg notification-battery-empty.svg
+ln -s gpm-primary-000.svg notification-gpm-battery-000.svg
+ln -s gpm-primary-000.svg notification-gpm-battery-empty.svg
+ln -s gpm-primary-000.svg xfpm-battery-000.svg
+
+ln -s gpm-primary-000-charging.svg gpm-battery-000-charging.svg
+ln -s gpm-primary-000-charging.svg notification-battery-000-plugged.svg
+ln -s gpm-primary-000-charging.svg notification-gpm-battery-000-charging.svg
+ln -s gpm-primary-000-charging.svg xfpm-battery-000-charging.svg
+
+ln -s gpm-primary-020.svg battery_caution.svg
+ln -s gpm-primary-020.svg battery-caution-symbolic.svg
+ln -s gpm-primary-020.svg gpm-battery-020.svg
+ln -s gpm-primary-020.svg notification-battery-020.svg
+ln -s gpm-primary-020.svg notification-battery-low.svg
+ln -s gpm-primary-020.svg notification-gpm-battery-020.svg
+ln -s gpm-primary-020.svg xfpm-battery-020.svg
+
+ln -s gpm-primary-020-charging.svg battery-caution-charging-symbolic.svg
+ln -s gpm-primary-020-charging.svg battery-low-charging-symbolic.svg
+ln -s gpm-primary-020-charging.svg gpm-battery-020-charging.svg
+ln -s gpm-primary-020-charging.svg notification-battery-020-plugged.svg
+ln -s gpm-primary-020-charging.svg notification-gpm-battery-020-charging.svg
+ln -s gpm-primary-020-charging.svg xfpm-battery-020-charging.svg
+
+ln -s gpm-primary-040.svg battery_low.svg
+ln -s gpm-primary-040.svg battery-low-symbolic.svg
+ln -s gpm-primary-040.svg gpm-battery-040.svg
+ln -s gpm-primary-040.svg notification-battery-040.svg
+ln -s gpm-primary-040.svg notification-gpm-battery-040.svg
+ln -s gpm-primary-040.svg xfpm-battery-040.svg
+
+ln -s gpm-primary-040-charging.svg gpm-battery-040-charging.svg
+ln -s gpm-primary-040-charging.svg notification-battery-040-plugged.svg
+ln -s gpm-primary-040-charging.svg notification-gpm-battery-040-charging.svg
+ln -s gpm-primary-040-charging.svg xfpm-battery-040-charging.svg
+
+ln -s gpm-primary-060.svg battery_two_thirds.svg
+ln -s gpm-primary-060.svg gpm-battery-060.svg
+ln -s gpm-primary-060.svg notification-battery-060.svg
+ln -s gpm-primary-060.svg notification-gpm-battery-060.svg
+ln -s gpm-primary-060.svg xfpm-battery-060.svg
+
+ln -s gpm-primary-060-charging.svg gpm-battery-060-charging.svg
+ln -s gpm-primary-060-charging.svg notification-battery-060-plugged.svg
+ln -s gpm-primary-060-charging.svg notification-gpm-battery-060-charging.svg
+ln -s gpm-primary-060-charging.svg xfpm-battery-060-charging.svg
+
+ln -s gpm-primary-080.svg battery-good-symbolic.svg
+ln -s gpm-primary-080.svg battery_third_fouth.svg
+ln -s gpm-primary-080.svg gpm-battery-080.svg
+ln -s gpm-primary-080.svg notification-battery-080.svg
+ln -s gpm-primary-080.svg notification-gpm-battery-080.svg
+ln -s gpm-primary-080.svg xfpm-battery-080.svg
+
+ln -s gpm-primary-080-charging.svg battery-good-charging-symbolic.svg
+ln -s gpm-primary-080-charging.svg gpm-battery-080-charging.svg
+ln -s gpm-primary-080-charging.svg notification-battery-080-plugged.svg
+ln -s gpm-primary-080-charging.svg notification-gpm-battery-080-charging.svg
+ln -s gpm-primary-080-charging.svg xfpm-battery-080-charging.svg
+
+ln -s gpm-primary-100.svg battery_full.svg
+ln -s gpm-primary-100.svg battery-full-symbolic.svg
+ln -s gpm-primary-100.svg gpm-battery-100.svg
+ln -s gpm-primary-100.svg notification-battery-100.svg
+ln -s gpm-primary-100.svg notification-gpm-battery-100.svg
+ln -s gpm-primary-100.svg xfpm-battery-100.svg
+
+ln -s gpm-primary-100-charging.svg gpm-battery-100-charging.svg
+ln -s gpm-primary-100-charging.svg notification-gpm-battery-100-charging.svg
+ln -s gpm-primary-100-charging.svg notification-battery-100-plugged.svg
+ln -s gpm-primary-100-charging.svg xfpm-battery-100-charging.svg
+
+ln -s gpm-primary-100-charging.svg battery_charged.svg
+ln -s gpm-primary-100-charging.svg battery-full-charged-symbolic.svg
+ln -s gpm-primary-100-charging.svg battery-full-charging-symbolic.svg
+ln -s gpm-primary-100-charging.svg battery_plugged.svg
+ln -s gpm-primary-100-charging.svg gpm-battery-charged.svg
+ln -s gpm-primary-100-charging.svg gpm-primary-charged.svg
+ln -s gpm-primary-100-charging.svg notification-gpm-battery-charged.svg
+ln -s gpm-primary-100-charging.svg xfpm-battery-charged.svg
+

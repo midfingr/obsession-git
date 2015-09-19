@@ -1,0 +1,28 @@
+#! /bin/bash
+
+action=$(yad --width 300 --entry --title "System shutdown" --center --on-top --skip-taskbar --window-icon=gnome-shutdown --timeout=30 --undecorated \
+    --image=system-shutdown \
+    --button="Switch User:2" \
+    --button="gtk-ok:0" --button="gtk-cancel:1" \
+    --text "Choose action:" \
+    --entry-text \
+    "Power Off" "Reboot" "Sleep" "Hibernate" "Logout")
+ret=$?
+
+[[ $ret -eq 1 ]] && exit 0
+
+if [[ $ret -eq 2 ]]; then
+    dm-tool switch-to-greeter &
+    exit 0
+fi
+
+case $action in
+    Power*) cmd='sudo poweroff' ;;
+    Reboot*) cmd='sudo reboot' ;;
+    Sleep*) cmd='sudo systemctl suspend' ;;
+    Hibernate*) cmd='sudo systemctl hibernate' ;;
+    Logout*) cmd="openbox --exit" ;;
+    *) exit 1 ;;        
+esac
+
+eval exec $cmd
