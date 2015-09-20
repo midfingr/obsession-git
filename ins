@@ -10,6 +10,8 @@ rm -r ~/.configrm -r ~/.local
 cp -r obsession-git/.icons ~/.icons
 cp -r obsession-git/.config ~/.config
 cp -r obsession-git/.local ~/.local
+cp obsession-git/.gtkrc-2.0 ~/.gtkrc-2.0
+cp obsession-git/.gtkrc-2.0.mine ~/.gtkrc-2.0.mine
 sudo cp obsession-git/yad-logout /usr/bin
 sudo cp obsession-git/yad-shutdown /usr/bin
 sudo cp obsession-git/control_panel /usr/bin
@@ -18,6 +20,6 @@ sudo cp -r obsession-git/wallpaper /usr/share
 xdg-user-dirs-update
 sudo systemctl enable NetworkManager
 sudo systemctl enable lightdm
-sudo systemctl enable accountsservice
+sudo systemctl enable accounts-daemon.service
 chmod +x obsession-git/aur_ins
 ./aur_ins
