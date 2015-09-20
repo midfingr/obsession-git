@@ -1,0 +1,12 @@
+## Whisker Menu Theme -- Gnumix Blue ##
+
+style "darkback"
+{
+ bg[NORMAL] = "#2d2d2d"
+ bg[ACTIVE] = "#00a7fc"
+ bg[PRELIGHT] = "#00a7fc"
+ fg[NORMAL] = "#fff"
+ fg[ACTIVE] = "#000000"
+ fg[PRELIGHT] = "#000000"
+}
+widget "whiskermenu-window*" style "darkback"
