@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo pacman -U aur_files/*.tar.xz
