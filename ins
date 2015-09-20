@@ -13,6 +13,11 @@ cp -r obsession-git/.config ~/.config
 cp -r obsession-git/.local ~/.local
 sudo cp obsession-git/yad-logout /usr/bin
 sudo cp obsession-git/yad-shutdown /usr/bin
+sudo cp obsession-git/control_panel /usr/bin
+sudo cp -r obsession-git/Control_Panel /usr/share
+sudo cp -r obsession-git/wallpaper /usr/share
 xdg-user-dirs-update
 sudo systemctl enable NetworkManager
 sudo systemctl enable lightdm
+chmod +x obsession-git/aur_ins
+obsession-git/aur_ins
