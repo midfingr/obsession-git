@@ -8,7 +8,7 @@
   <property name="misc-file-size-binary" type="bool" value="true"/>
   <property name="misc-middle-click-in-tab" type="bool" value="true"/>
   <property name="last-window-maximized" type="bool" value="false"/>
-  <property name="last-menubar-visible" type="bool" value="true"/>
+  <property name="last-menubar-visible" type="bool" value="false"/>
   <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-window-width" type="int" value="953"/>
   <property name="last-window-height" type="int" value="608"/>
