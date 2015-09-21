@@ -226,12 +226,12 @@
         </startupnotify>
       </action>
     </keybind>
-    <keybind key="A-l">
+    <keybind key="A-u">
       <action name="Execute">
         <command>yad-shutdown</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Leave</name>
+          <name>PowerOff</name>
         </startupnotify>
       </action>
     </keybind>
@@ -250,6 +250,15 @@
         <startupnotify>
           <enabled>yes</enabled>
           <name>Home</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="A-i">
+      <action name="Execute">
+        <command>yad-logout</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Leave</name>
         </startupnotify>
       </action>
     </keybind>
