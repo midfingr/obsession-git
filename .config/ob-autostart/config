@@ -8,5 +8,6 @@ LAUNCH_LIST = [
 	 ("Composite","compton -f -b","0","*"),
 	 ("Wallpaper","nitrogen --restore","0","*"),
 	 ("Power","xfce4-power-manager","0","*"),
+	 ("NumLock","numlockx","0","*"),
 	 ("Menu Pop","xdotool behave_screen_edge top-right exec xfce4-popup-whiskermenu &","0","*"),
 	]
