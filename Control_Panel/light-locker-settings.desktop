@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Screensaver Settings
 Comment=Configure locking your session
-Exec=/usr/bin/light-locker-settings
+Exec=xscreensaver-demo
 Terminal=false
 Type=Application
 StartupNotify=true

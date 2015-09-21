@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Flash Player
 Comment=Pepper Flash Plugin Details
-Exec=gksu /usr/local/bin/pepper-flash-status
+Exec=xdg-open /usr/share/licenses/chromium-pepper-flash/license.html
 Icon=pepperflashplayer
 Terminal=false
 Type=Application
