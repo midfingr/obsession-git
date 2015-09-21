@@ -15,10 +15,4 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
-lxpanel &
-lxsession &
-plank &
-xfce4-panel &
-compton -f -b &
-nitrogen --restore &
-xfce4-power-manager &
+ob-autostart -d &

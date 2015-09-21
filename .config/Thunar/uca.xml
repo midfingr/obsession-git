@@ -11,18 +11,18 @@
 	<directories/>
 </action>
 <action>
-	<icon></icon>
-	<name>Open as Root</name>
-	<unique-id>1442627847179036-1</unique-id>
+	<icon>apport</icon>
+	<name>Open as Administrator</name>
+	<unique-id>1442795769000927-1</unique-id>
 	<command>sudo thunar %f</command>
 	<description></description>
 	<patterns>*</patterns>
 	<directories/>
 </action>
 <action>
-	<icon></icon>
+	<icon>applications-system</icon>
 	<name>Ed_it as Root</name>
-	<unique-id>1442632970062000-1</unique-id>
+	<unique-id>1442795860781039-2</unique-id>
 	<command>sudo leafpad %f</command>
 	<description></description>
 	<patterns>*</patterns>

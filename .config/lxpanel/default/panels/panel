@@ -42,3 +42,18 @@ Plugin {
     Size=2
   }
 }
+Plugin {
+  type=xkb
+  Config {
+    Model=pc105
+    LayoutsList=us
+    VariantsList=,
+    ToggleOpt=grp:shift_caps_toggle
+    DisplayType=1
+  }
+}
+Plugin {
+  type=volumealsa
+  Config {
+  }
+}

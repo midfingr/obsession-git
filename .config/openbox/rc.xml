@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -182,6 +181,60 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+    <keybind key="C-A-l">
+      <action name="Execute">
+        <command>lxlock</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Lock</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="A-p">
+      <action name="Execute">
+        <command>control_panel</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Control</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="A-r">
+      <action name="Execute">
+        <command>gmrun</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Run</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="grave">
+      <action name="Execute">
+        <command>xfce4-popup-whiskermenu</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Main</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="C-A-n">
+      <action name="Execute">
+        <command>leafpad</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Text</name>
+        </startupnotify>
+      </action>
+    </keybind>
+    <keybind key="A-l">
+      <action name="Execute">
+        <command>yad-shutdown</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Leave</name>
+        </startupnotify>
+      </action>
+    </keybind>
     <keybind key="C-A-t">
       <action name="Execute">
         <command>xfce4-terminal</command>
@@ -263,6 +316,13 @@
     </keybind>
     <keybind key="A-F4">
       <action name="Close"/>
+      <action name="Execute">
+        <command>yad-logout</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <name>Logout</name>
+        </startupnotify>
+      </action>
     </keybind>
     <keybind key="A-Escape">
       <action name="Lower"/>
@@ -300,10 +360,10 @@
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <command>kfmclient openProfile filemanagement</command>
+        <command>chromium</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Konqueror</name>
+          <name>Chrome</name>
         </startupnotify>
       </action>
     </keybind>

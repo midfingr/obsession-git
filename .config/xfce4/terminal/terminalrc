@@ -19,4 +19,5 @@ MiscHighlightUrls=TRUE
 FontName=Monospace 14
 BackgroundMode=TERMINAL_BACKGROUND_IMAGE
 BackgroundDarkness=0.800000
+Encoding=UTF-8
 
