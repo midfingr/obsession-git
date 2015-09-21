@@ -1,0 +1,9 @@
+[Added Associations]
+application/x-shellscript=leafpad.desktop;
+application/xml=leafpad.desktop;
+application/x-compressed-tar=engrampa.desktop;
+text/plain=leafpad.desktop;
+application/x-desktop=leafpad.desktop;lxshortcut.desktop;
+
+[Default Applications]
+application/xml=leafpad.desktop

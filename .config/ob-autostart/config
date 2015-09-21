@@ -1,0 +1,12 @@
+# OB_Autostart config
+LAUNCH_LIST = [ 
+	 ("lxpanel","lxpanel","0","*"),
+	 ("Screen Saver","xscreensaver -no-splash","0","*"),
+	 ("Session Manager","lxsession","0","*"),
+	 ("Dock","plank","0","*"),
+	 ("Top Panel","xfce4-panel","0","*"),
+	 ("Composite","compton -f -b","0","*"),
+	 ("Wallpaper","nitrogen --restore","0","*"),
+	 ("Power","xfce4-power-manager","0","*"),
+	 ("Menu Pop","xdotool behave_screen_edge top-right exec xfce4-popup-whiskermenu &","0","*"),
+	]
